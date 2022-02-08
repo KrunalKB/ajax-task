@@ -1,0 +1,121 @@
+body {
+  background-image: linear-gradient(
+    to right top,
+    #231eec,
+    #725cf6,
+    #a592fd,
+    #d2c8ff,
+    #ffffff
+  );
+} 
+
+.form {
+  width: 100%;
+}
+
+h2 {
+  text-align: center;
+ 
+}
+
+form {
+  width: 450px;
+  padding: 15px 40px 40px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+  margin-left: 540px;
+  margin: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.35);
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input,
+select {
+  border: 1px solid #ccc;
+  padding: 10px;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 2px;
+  background-color: #a9bae64a;
+  position: relative;
+}
+
+.textarea {
+  background-color: #a9bae64a;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+}
+
+.error{
+  color: red;
+}
+
+.check {
+  padding: 10px;
+}
+
+.form-inline {
+  border: 1px solid #ccc;
+  padding: 8px 10px 4px;
+  border-radius: 2px;
+  background-color: #a9bae64a;
+}
+
+.form-inline label,
+.form-inline input {
+  display: inline-block;
+  width: auto;
+  padding-right: 15px;
+}
+
+.form-inline :focus{
+  background-color: aqua;
+  border: 1px solide blue;
+}
+
+#submit {
+  font-weight: bold;
+  font-size: 15px;
+  background-image: linear-gradient(
+  to right top, 
+  #000000, 
+  #222222,
+  #3f3f3f, 
+  #5f5f5f, 
+  #808080);
+  color: white;
+}
+
+#submit:hover{
+  background-image: linear-gradient(
+    to right top,
+    #231eec,
+    #725cf6,
+    #a592fd,
+    #d2c8ff,
+    #ffffff
+  );
+  color: black;
+}
+
+.indicate{
+	color: red;
+	font-size: 20px;
+}
+
+.field{
+	text-align: right;
+	color: #FF7F7F;
+}
+
+.file{
+  font-size: 17px;
+  box-sizing: border-box;
+}
+
